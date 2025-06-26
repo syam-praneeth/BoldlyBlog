@@ -1,7 +1,9 @@
 const exp = require('express');
 const app = exp();
+
 const dotEnv = require('dotenv');
 dotEnv.config();
+
 const mongoose = require('mongoose');
 const expressAsyncHandler = require('express-async-handler');
 app.use(exp.json());

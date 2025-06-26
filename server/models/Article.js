@@ -1,6 +1,4 @@
 const mongoose = require('mongoose');
-const UserAuthor = require('./UserAuthor'); 
-
 const commentSchema = new mongoose.Schema({
     content: {
         type: String,
